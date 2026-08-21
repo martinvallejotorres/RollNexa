@@ -2,6 +2,8 @@
 
 Rollnexa es una plataforma para encontrar grupos de rol de mesa, organizar campañas, coordinar disponibilidad y conversar con cada grupo. No es un tablero virtual: el foco está en que la mesa se forme y siga organizada.
 
+Sitio: [rollnexa.online](https://rollnexa.online)
+
 ## Arquitectura
 
 - `frontend/`: React 19, TypeScript y Vite. SPA responsive servida por Nginx en producción.
@@ -82,3 +84,9 @@ Después de apuntar DNS a la VPS, instalá Certbot y emití el certificado con `
 - Sesión web en lugar de JWT; reduce exposición de tokens en el navegador.
 - El cálculo de niveles vive en `LevelService` y puede cambiarse sin tocar perfiles.
 - Actividad se acredita en bloques de hasta 15 minutos y se limita por sesión; no se suma solo por dejar una pestaña abierta.
+
+## Contribuciones y licencia
+
+Las contribuciones son bienvenidas. Consultá [CONTRIBUTING.md](CONTRIBUTING.md) antes de enviar un pull request.
+
+Rollnexa se distribuye bajo la [licencia MIT](LICENSE).
