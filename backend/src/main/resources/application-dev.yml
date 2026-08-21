@@ -1,0 +1,6 @@
+spring:
+  jpa:
+    defer-datasource-initialization: false
+app:
+  seed-demo-data: true
+
